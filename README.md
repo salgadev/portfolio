@@ -18,5 +18,7 @@ npm install -D tailwindcss postcss autoprefixer
 Can run the application in VS Code or a terminal and it will be available at `http://localhost:3000`.
 
 ```
+cd portfolio
+npm install
 npm run dev
 ```
