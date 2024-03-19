@@ -11,6 +11,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+      'latte-green': '#40a02b',
+      'latte-teal': '#179299',
+      'latte-red': '#d20f39',
+      },
       screens: { sm: "480px", md: "768px", lg: "976px", xl: "1440pd" },
       animation: {
         fadeIn: "fadeIn 1.5s",
@@ -48,7 +53,7 @@ module.exports = {
       // default is `false`, which means no prefix
       prefix: "ctp",
       // which flavour of colours to use by default, in the `:root`
-      defaultFlavour: "mocha",
+      defaultFlavour: "frappe",
     }),
   ],
 }

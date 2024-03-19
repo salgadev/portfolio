@@ -16,7 +16,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="bg-ctp-lavender bg-opacity-10 text-ctp-crust dark:bg-ctp-surface0 dark:text-ctp-text">
+      <body className="bg-ctp-lavender bg-opacity-10 text-ctp-crust dark:bg-ctp-base dark:text-ctp-text">
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
           {children}
