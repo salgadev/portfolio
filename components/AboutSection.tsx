@@ -2,11 +2,11 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
+  { skill: "Python" },
+  { skill: "NixOS" },
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Python" },
   { skill: "React" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
@@ -30,35 +30,26 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              Hi, my name is Carlos and I am a{" "}
+              <span className="font-bold">{"highly ambitious"}</span> and
+              <span className="font-bold">{" self-motivated"}</span> software developer based in Kingston, Ontario.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I graduated from Western University with a Master's in Electrical and Computer engineering. I am passionate about turning concepts into reality and I leverage Artificial Intelligence, Signal Processing and QA Test Automation to architect <span className="font-bold text-teal-500">
+                state-of-the-art
+              </span>{" "}Minimum Viable Products (MVPs).
             </p>
+
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
-            </p>
-            <br />
-            <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
+              I am a {" "}
+              <span className="font-bold text-red-500">
+                tinkerer
               </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              at heart and I find joy discovering new niches to dive into, from software development and test engineering to regulations, quality standards, and documentation. If any part of my background resonates with you, please feel free to connect. I am always open to discussing new opportunities. 🙂
+
+
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
