@@ -6,27 +6,27 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "LLM Building Code Expert",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "DollyExpertBuilder is an LLM assistant capable of domain-specific Question Answering by Retrieval using a custom Vector Database based on the XML sitemap of the Ontario Building Code.",
+    image: "/dolly.png",
+    github: "https://github.com/salgadev/dolly-expert-lite",
+    link: "https://huggingface.co/spaces/salgadev/dolly-expert-builder",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Automatic Beverage Inspection",
+    description: "SpiritVision is a multi-class image classifier capable of recognizing methanol spikes in mezcal drops. Trained with Transfer Learning using Pytorch and image processing with OpenCV.",
+    image: "/spiritvision.png",
+    github: "https://github.com/salgadev/spiritvision",
+    link: "https://huggingface.co/spaces/salgadev/spiritvision-demo",
   },
   {
-    name: "Kator Family Photos",
+    name: "AWS Geospatial Flask App",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "A Web App displaying hospital bed availability in the USA originally deployed on AWS using a S3 hosted dataset, an EC2 instance and Elastic Beanstalk.",
+    image: "/beds.png",
+    github: "https://github.com/salgadev/hospital-beds",
+    link: "#",
   },
 ]
 
@@ -38,7 +38,7 @@ const ProjectsSection = () => {
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
 
-      <div className="flex flex-col space-y-28">
+      <div className="flex flex-col space-y-28 ">
         {projects.map((project, idx) => {
           return (
             <div key={idx}>
