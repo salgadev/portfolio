@@ -1,18 +1,18 @@
 import React from "react"
 import Image from "next/image"
+import { Link } from "react-scroll/modules"
+import { HiArrowDown } from "react-icons/hi"
 
 const skills = [
   { skill: "Python" },
-  { skill: "NixOS" },
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "React" },
-  { skill: "Next.js" },
+  { skill: "Nix" },
   { skill: "Tailwind CSS" },
+  { skill: "HTML" },
+  { skill: "JavaScript" },
+  { skill: "Computer Vision" },
   { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Test Automation" },
+  { skill: "Natural Language Processing"},
 ]
 
 const AboutSection = () => {
@@ -36,7 +36,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I graduated from Western University with a Master's in Electrical and Computer engineering. I am passionate about turning concepts into reality and I leverage Artificial Intelligence, Signal Processing and QA Test Automation to architect <span className="font-bold text-teal-500">
+              I graduated from Western University with a Master's in Electrical and Computer engineering. I am passionate about turning concepts into reality and I leverage Artificial Intelligence, Signal Processing and QA Test Automation to architect <span className="font-bold text-latte-teal dark:text-ctp-teal">
                 state-of-the-art
               </span>{" "}Minimum Viable Products (MVPs).
             </p>
@@ -44,7 +44,7 @@ const AboutSection = () => {
             <br />
             <p>
               I am a {" "}
-              <span className="font-bold text-red-500">
+              <span className="font-bold text-latte-red dark:text-ctp-red">
                 tinkerer
               </span>{" "}
               at heart and I find joy discovering new niches to dive into, from software development and test engineering to regulations, quality standards, and documentation. If any part of my background resonates with you, please feel free to connect. I am always open to discussing new opportunities. 🙂
@@ -59,7 +59,7 @@ const AboutSection = () => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                    className="bg-ctp-overlay2 px-4 py-2 mr-2 mt-2 text-ctp-crust rounded font-semibold dark:bg-ctp-surface2/[0.7] dark:text-ctp-blue"
                   >
                     {item.skill}
                   </p>

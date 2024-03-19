@@ -11,6 +11,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+      'latte-green': '#40a02b',
+      'latte-teal': '#179299',
+      'latte-red': '#d20f39',
+      },
       screens: { sm: "480px", md: "768px", lg: "976px", xl: "1440pd" },
       animation: {
         fadeIn: "fadeIn 1.5s",
@@ -42,5 +47,13 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@catppuccin/tailwindcss")({
+      // prefix to use, e.g. `text-pink` becomes `text-ctp-pink`.
+      // default is `false`, which means no prefix
+      prefix: "ctp",
+      // which flavour of colours to use by default, in the `:root`
+      defaultFlavour: "frappe",
+    }),
+  ],
 }

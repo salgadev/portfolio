@@ -21,14 +21,14 @@ const HeroSection = () => {
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Carlos!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a seasoned{" "}
-            <span className="font-semibold text-teal-600">
+            <span className="font-semibold text-latte-green dark:text-ctp-green">
               Software Developer{" "}
             </span>
             based in Kingston, Ontario. I use my expertise in Artificial Intelligence, Signal Processing and QA Test Automation to turn ideas into MVPs.
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="font-semibold px-6 py-3 bg-ctp-blue hover:bg-ctp-sky rounded shadow dark:bg-ctp-sky dark:hover:bg-ctp-blue text-ctp-crust"
             activeClass="active"
             spy={true}
             smooth={true}
