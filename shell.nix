@@ -17,7 +17,7 @@ pkgs.mkShell {
 
     # Install Tailwind CSS and its peer dependencies
     echo "Installing Tailwind CSS, PostCSS, and Autoprefixer..."
-    npm install -D tailwindcss postcss autoprefixer
+    npm install -D prettier tailwindcss postcss autoprefixer @catppuccin/tailwindcss
 
     # Optionally, you can run 'npm run dev' automatically, but it might be better to run it manually
     # echo "Starting the development server..."
