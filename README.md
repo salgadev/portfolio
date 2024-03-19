@@ -10,15 +10,10 @@ Fork or download the repo and change whatever you need to change for your needs.
 
 ## Running Locally
 Setup self-contained Nix Environment
-```
-nix-shell -p nodejs_21
-npm install -D tailwindcss postcss autoprefixer
-```
-
-Can run the application in VS Code or a terminal and it will be available at `http://localhost:3000`.
-
-```
+```bash
 cd portfolio
-npm install
+nix-shell
 npm run dev
 ```
+
+The application will be available at `http://localhost:3000`.
