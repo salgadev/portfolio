@@ -36,7 +36,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I graduated from Western University with a Master&aposs in Electrical and Computer engineering. I am passionate about turning concepts into reality and I leverage Artificial Intelligence, Signal Processing and QA Test Automation to architect <span className="font-bold text-latte-teal dark:text-ctp-teal">
+              I graduated from Western University with a Master&#39;s in Electrical and Computer engineering. I am passionate about turning concepts into reality and I leverage Artificial Intelligence, Signal Processing and QA Test Automation to architect <span className="font-bold text-latte-teal dark:text-ctp-teal">
                 state-of-the-art
               </span>{" "}Minimum Viable Products (MVPs).
             </p>
