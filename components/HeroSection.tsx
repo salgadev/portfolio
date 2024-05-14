@@ -26,17 +26,27 @@ const HeroSection = () => {
             </span>
             based in Kingston, Ontario. I use my expertise in Artificial Intelligence, Signal Processing and QA Test Automation to turn ideas into MVPs.
           </p>
-          <Link
-            to="projects"
-            className="font-semibold px-6 py-3 bg-ctp-blue hover:bg-ctp-sky rounded shadow dark:bg-ctp-sky dark:hover:bg-ctp-blue text-ctp-crust"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Projects
-          </Link>
+          <div className="flex space-x-4">
+            <Link
+              to="projects"
+              className="font-semibold px-6 py-3 bg-ctp-blue hover:bg-ctp-sky rounded shadow dark:bg-ctp-sky dark:hover:bg-ctp-blue text-ctp-crust"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Projects
+            </Link>
+            <a
+              href="https://donate.stripe.com/14k6qc2kGdA78tG7ss"
+              className="font-semibold px-6 py-3 bg-ctp-green hover:bg-ctp-yellow rounded shadow dark:bg-ctp-yellow dark:hover:bg-ctp-green text-ctp-crust"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Donate!
+            </a>
+          </div>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
@@ -55,4 +65,4 @@ const HeroSection = () => {
   )
 }
 
-export default HeroSection
+export default HeroSection;
