@@ -21,12 +21,28 @@ const projects = [
     link: "https://huggingface.co/spaces/salgadev/spiritvision-demo",
   },
   {
+    name: "Image-based Surgical Planning Tool for Bone Conduction Devices",
+    description:
+      "Developed and validated a computer vision algorithm to aid in surgical planning of bone conduction devices by ray-tracing and segmentation of clinical CT images of the skull.",
+    image: "/figures.png",
+    github: "",
+    link: "https://www.cell.com/heliyon/fulltext/S2405-8440%2824%2903467-4",
+  },
+  {
+    name: "Secure Multiparty Computation Course Development",
+    description:
+      "Developed course materials on Additive Secret Sharing and Beaver Triplets (Private Matrix multiplication) cryptography concepts and Python algorithm implementations and use cases of the PySyft library.",
+    image: "/secret-sharing.jpg",
+    github: "https://github.com/OpenMined/courses/blob/foundations-of-private-computation/secure-mpc/Additive%20Secret%20Sharing.ipynb",
+    link: "https://courses.openmined.org/courses/foundations-of-private-computation",
+  },
+  {
     name: "AWS Geospatial Flask App",
     description:
       "A Web App displaying hospital bed availability in the USA originally deployed on AWS using a S3 hosted dataset, an EC2 instance and Elastic Beanstalk.",
     image: "/beds.png",
     github: "https://github.com/salgadev/hospital-beds",
-    link: "#",
+    link: "",
   },
 ]
 
