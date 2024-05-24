@@ -39,6 +39,14 @@ const HeroSection = () => {
               Projects
             </Link>
             <a
+              href="https://www.calendly.com/salgadev"
+              className="font-semibold px-6 py-3 bg-ctp-sapphire hover:bg-ctp-maroon rounded shadow dark:bg-ctp-blue dark:hover:bg-ctp-mauve text-ctp-crust"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Book a Call
+            </a>
+            <a
               href="https://donate.stripe.com/14k6qc2kGdA78tG7ss"
               className="font-semibold px-6 py-3 bg-ctp-green hover:bg-ctp-yellow rounded shadow dark:bg-ctp-yellow dark:hover:bg-ctp-green text-ctp-crust"
               target="_blank"
