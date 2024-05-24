@@ -24,7 +24,7 @@ const projects = [
     name: "Image-based Surgical Planning Tool for Bone Conduction Devices",
     description:
       "Developed and validated a computer vision algorithm to aid in surgical planning of bone conduction devices by ray-tracing and segmentation of clinical CT images of the skull.",
-    image: "/figures.png",
+    image: "/figures.webp",
     github: "",
     link: "https://www.cell.com/heliyon/fulltext/S2405-8440%2824%2903467-4",
   },
